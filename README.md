@@ -4,7 +4,7 @@ In this test you will find a wide cross section of the type of code you will be 
 Most candidates complete the test in under 3 hours, however if you should wish to continue beyond that we welcome you to do so and this will have no impact on your submission.
 
 ## Instructions
-Click the **Use this template** button above to create a private repository in your own github account and invite github users @ioanap and @tommywizard as _collaborators_ on your repo.
+Click the **Use this template** button above to create a private repository in your own github account and invite github users @finaruioana and @tommywizard as _collaborators_ on your repo.
 
 **IMPORTANT: Please commit your work on a new branch and raise a pull request against the master branch of your repo and add us as reviewers. Please add a simple description to your PR outlining which parts of the test have been completed and any comments you feel support your submission.**
  
@@ -34,7 +34,7 @@ Integrate with a Visual testing tool (Percy/Applitools) to validate the Lead Qua
 * Run the test against  2 browsers (Chrome & Edge) and 3 resolutions (320px, 768px, 1366px).
 * Take full page screenshot from Percy/Applitools and add it into `part3-VisualTest` directory.
 
-### Part 4: CI Integration
+### Part 4: CI Integration 
 How would be integrate this test to run into CI - could you draft a **Jenkinsfile**? Or another CI pipeline that can be integrated with your Github project? 
 * Note: We use Jenkins as our CI tool and that’s the reason we started with Jenkinsfile, but feel free to use any other available option to integrate your project into a CI tool. 
 * We understand you might not be able to validate the CI pipeline, but even a draft would give us an idea over your CI understanding. 
