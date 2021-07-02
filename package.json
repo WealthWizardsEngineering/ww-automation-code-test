@@ -1,0 +1,23 @@
+{
+  "name": "ww-automation-code-test",
+  "version": "1.0.0",
+  "description": "A practical code test for prospective Quality Engineers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+		"cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WealthWizardsEngineering/ww-automation-code-test.git"
+  },
+  "author": "Wealth Wizards Engineering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WealthWizardsEngineering/ww-automation-code-test/issues"
+  },
+  "homepage": "https://github.com/WealthWizardsEngineering/ww-automation-code-test#readme",
+  "devDependencies": {
+    "cypress": "7.6.0"
+  }
+}
