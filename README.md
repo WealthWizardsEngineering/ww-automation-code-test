@@ -34,7 +34,7 @@ Integrate with a Visual testing tool (Percy/Applitools) to validate the Lead Qua
 * Run the test against  2 browsers (Chrome & Edge) and 3 resolutions (320px, 768px, 1366px).
 * Take full page screenshot from Percy/Applitools and add it into `part3-VisualTest` directory.
 
-### Part 4: CI Integration 
+### Part 4: CI Integration 
 How would be integrate this test to run into CI - could you draft a **Jenkinsfile**? Or another CI pipeline that can be integrated with your Github project? 
 * Note: We use Jenkins as our CI tool and that’s the reason we started with Jenkinsfile, but feel free to use any other available option to integrate your project into a CI tool. 
 * We understand you might not be able to validate the CI pipeline, but even a draft would give us an idea over your CI understanding. 
