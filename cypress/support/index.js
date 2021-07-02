@@ -18,3 +18,11 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+Cypress.on('window:before:load', (win) => {
+  cy.spy(win.console, 'log');
+});
+Cypress.on('uncaught:exception', (error) => {
+  cy.log(`ERROR THROWN: ${JSON.stringify(error)}`);
+  return false;
+});
