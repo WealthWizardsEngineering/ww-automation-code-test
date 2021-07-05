@@ -14,11 +14,11 @@ Click the **Use this template** button above to create a private repository in y
 
 
 ### Part 1: Create a JS npm project with cypress.io 
-Create a JS npm project where you can use Cypress.io to automate the below scenario:
+Use Cypress.io to automate the below scenario under `cypress/integration/part1-Tests` directory:
 1. Go to https://www.wealthwizards.com/  
 2. Check that About Us dropdown has 3 values: “Who we are”, “Careers” and “Contact”
 3. Click on “Careers” - you should get redirected to https://www.wealthwizards.com/careers 
-4. Check the 5  WW values
+4. Check the 5 WW values
 5. Check that the page contains “View jobs” button
 6. Click “View jobs” button   - you should get redirected to https://www.wealthwizards.com/job-vacancies  
 7. Find “Lead Quality Engineer” role  and click “Find out more” button
@@ -31,11 +31,11 @@ Add functionality to create a html report from your cypress test run under `repo
 Integrate with a Visual testing tool (Percy/Applitools) to validate the Lead Quality Engineer role page 
 
 * You can register for a free account for Percy (https://percy.io/ ) or Applitools (https://applitools.com/ ). 
-* Run the test against  2 browsers (Chrome & Edge) and 3 resolutions (320px, 768px, 1366px).
+* Run the test against  2 browsers (Chrome & Edge) and 3 different resolutions (mobile/tablet and desktop).
 * Take full page screenshot from Percy/Applitools and add it into `part3-VisualTest` directory.
 
 ### Part 4: CI Integration 
-How would be integrate this test to run into CI - could you draft a **Jenkinsfile**? Or another CI pipeline that can be integrated with your Github project? 
+How would be integrate your tests to run into CI - could you draft a **Jenkinsfile**? Or another CI pipeline that can be integrated with your Github project? 
 * Note: We use Jenkins as our CI tool and that’s the reason we started with Jenkinsfile, but feel free to use any other available option to integrate your project into a CI tool. 
 * We understand you might not be able to validate the CI pipeline, but even a draft would give us an idea over your CI understanding. 
 * Where you don't know the Jenkins/Groovy technical format, it’s sufficient to add a comment and explain your intention for that step
