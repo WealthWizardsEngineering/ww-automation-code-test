@@ -4,7 +4,7 @@ In this test you will find a wide cross section of the type of code you will be 
 Most candidates complete the test in under 3 hours, however if you should wish to continue beyond that we welcome you to do so and this will have no impact on your submission.
 
 ## Instructions
-Click the **Use this template** button above to create a private repository in your own github account and invite github users @finaruioana and @tommywizard as _collaborators_ on your repo.
+Click the **Use this template** button above to create a private repository in your own github account and invite github user @Tom-Hudson as _collaborators_ on your repo.
 
 **IMPORTANT: Please commit your work on a new branch and raise a pull request against the master branch of your repo and add us as reviewers. Please add a simple description to your PR outlining which parts of the test have been completed and any comments you feel support your submission.**
  
@@ -21,7 +21,7 @@ Use Cypress.io to automate the below scenario under `cypress/integration/part1-T
 4. Check the 5 WW values
 5. Check that the page contains “View jobs” button
 6. Click “View jobs” button   - you should get redirected to https://www.wealthwizards.com/job-vacancies  
-7. Find “Lead Quality Engineer” role  and click “Find out more” button
+7. Find a role  and click “Find out more” button
 8. Validate the page 
 
 ### Part 2: Test Reporting
