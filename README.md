@@ -9,9 +9,9 @@ We do not expect you to create absolute perfection, a 'quick and dirty' solution
 1. Click the **Use this template** button above to create a new private repository in your own GitHub account.
 ![click use this template](./assets/use-template.png)
 ![new repo](./assets/new-repo.png)
-2. Invite GitHub user **@Tom-Hudson** as a collaborator on your new private repo
+2. Invite GitHub user **[@Tom-Hudson](https://github.com/Tom-Hudson)** as a collaborator on your new private repo
 3. Create a new branch and complete both parts of the test
-4. Once finished, raise an pull request, adding **@Tom-Hudson** as a reviewer
+4. Once finished, raise an pull request, adding **[@Tom-Hudson](https://github.com/Tom-Hudson)** as a reviewer
 > Please add a simple description to your PR and any comments you feel support your submission.
 
 ### Part 1: Cypress
@@ -30,7 +30,7 @@ Setup a [Cypress](https://docs.cypress.io/guides/getting-started/installing-cypr
 > We would likely never create a test like this 👆 at Wealth Wizards. The purpose of this is to demonstrate your automation abilities. If there are any steps you cannot complete, that is fine and can be discussed in the interview.
 
 ### Part 2: Cucumber
-Create a Cucumber feature file in the `part-2` folder and add tests for the current UK income tax bands:
+Create a Cucumber feature file in the `/part-2` folder and add tests for the current UK income tax bands:
 * UK income tax bands - https://www.gov.uk/income-tax-rates
 * Gherkin Reference - Cucumber Documentation: https://cucumber.io/docs/gherkin/reference/   
 > We understand the project won’t have the step definitions for the feature file to work, we are only interested in the scenarios you create
